@@ -21,6 +21,8 @@ Rubric Item:
         Methods Used: Line 134
 '''
 
+from cmu_graphics import *
+
 def main():
     while len(app.dogName) == 0:
         app.dogName = app.getTextInput("What is your name?")
@@ -142,9 +144,7 @@ def onKeyPress(key):
 
 
 
-
-
-
-
-
 main()
+
+
+cmu_graphics.run()
